@@ -27,3 +27,7 @@ Triangle::~Triangle()
 {
 }
 
+void Triangle::PrintData()
+{
+	std::cout << "To jest trojkat" << std::endl << "Polozony:\t" << X << " " << Y << std::endl << "Obwod:\t" << Perimeter() << std::endl << "Pole:\t" << Area() << std::endl;
+}
