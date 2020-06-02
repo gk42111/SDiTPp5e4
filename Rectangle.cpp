@@ -1,4 +1,4 @@
-  
+
 #include<iostream>
 #include "Rectangle.h"
 Rectangle::Rectangle(int X, int Y, double Side) :Polygon(X, Y)
@@ -21,5 +21,5 @@ double Rectangle::Area()
 
 void Rectangle::PrintData()
 {
-	std::cout << "To jest kwadrat" << std::endl << "Polozony:\t" <<X<<" "<<Y<<std::endl << "Obwod:\t" << Perimeter() << std::endl << "Pole:\t" << Area() << std::endl;
+	std::cout << "To jest kwadrat" << std::endl << "Polozony:\t" << X << " " << Y << std::endl << "Obwod:\t" << Perimeter() << std::endl << "Pole:\t" << Area() << std::endl;
 }
